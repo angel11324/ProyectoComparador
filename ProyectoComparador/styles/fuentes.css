@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+header{
+    background-color: #278A1B;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #A0D79B;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.usuario{
+    margin-left:1150px ;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.iniciarS{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: #E4E4E4;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.navegador{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    padding-top: 18px;
+    background-color: #72a16d;
+}
+
+.inicio{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin-left: 220px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: #A0D79B;
+    background-color: #278A1B;
+    display: inline;
+    text-align: center;
+}
+
+.comparar{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: #A0D79B;
+    background-color: #278A1B;
+    display: inline;
+    text-align: center;
+}
+
+.ligas{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: #A0D79B;
+    background-color: #278A1B;
+    display: inline;
+    text-align: center;
+}
+
+.webs{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: #A0D79B;
+    background-color: #278A1B;
+    display: inline;
+    text-align: center;
+}
+
+.navegador ul li a{
+    padding: 125px;
+	color: aliceblue;
+	text-decoration: none;
+}
+
+#btnregistrarse{
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-color: #E4E4E4;
+    float: left;
+    overflow: hidden;
+}
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E4E4E4;
+    margin: 15px;
+    width: auto;
+    float: left;
+    overflow: hidden;
+    font-size: xx-large;
+}
+
+.pie{
+    width: auto;
+    text-align: center;
+}
+
+.laliga{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.premier{
+    width: 50px;
+    padding-right: 50px;
+}
+
+.serieA{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.bundesliga{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.acerca{
+    width: auto;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    color: #278A1B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-left: 220px;
+}
+.equipos{
+    width: auto;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    color: #278A1B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-left: 30px;
+}
+.fuentes{
+    width: auto;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    color: #278A1B;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 340px;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.wiki{
+    width: 25%;
+    height: 400px;
+    background-color: #A0D79B;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    overflow: hidden;
+}
+
+.ligaEA{
+    width: 25%;
+    height: 400px;
+    background-color: #A0D79B;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    overflow: hidden;
+}
+
+.premierleague{
+    width: 25%;
+    height: 400px;
+    background-color: #A0D79B;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    overflow: hidden;
+}
+
+.bundesligaA{
+    width: 25%;
+    height: 400px;
+    background-color: #A0D79B;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.serieA2{
+    width: 25%;
+    height: 400px;
+    background-color: #A0D79B;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.tranfermarkt{
+    width: 25%;
+    height: 400px;
+    background-color: #A0D79B;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.foto1{
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.foto2{
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.foto3{
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.foto4{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.foto5{
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.foto6{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 70px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Estadios</title>
+    <link rel="stylesheet" href="styles/comparar.css">
+    <script src="compararEstadio.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="nombre">
+            <a href="index.html"><img src="img/logoComparador.png" alt="Logo" class="logo"></a>
+        </div>
+        <div class="usuario">
+            <a href="./view/login/indexLogin.php" class="iniciarS">Iniciar Sesión</a>
+            <a href="./view/register/indexRegister.php" class="registrarse"><button id="btnregistrarse">Registrarse</button></a>
+        </div>
+        <div class="navegador">
+            <ul>
+                <li class="inicio"><a href="index.html">Inicio</a></li>
+                <li class="comparar"><a href="#">Comparar</a></li>
+                <li class="ligas"><a href="ligas.html">Ligas</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <h2 class="titulo">Comparar estadios</h2>
+    <input type="search" name="buscador" id="btnfiltrar" placeholder="Buscar estadio">
+
+    <button id="btnComparar" onclick="compararEstadios()" class="btnComparar" style="display: none;">Comparar</button>
+    <div id="resultadoComparacion"></div>
+    <button id="btnSubir" onclick="scrollToComparar()" style="display: none;">Subir</button>
+
+    <section class="estadios" id="estadios"></section>
+
+    <footer>
+        <div class="pie">
+            <a href="https://www.laliga.com/es-GB" target="_blank"><img src="./img/LaLiga.png" alt="LaLiga" class="laliga"></a>
+            <a href="https://www.premierleague.com/" target="_blank"><img src="./img/premier.png" alt="Premier League" class="premier"></a>
+            <a href="https://www.legaseriea.it/en" target="_blank"><img src="./img/serie-a.png" alt="Serie A" class="serieA"></a>
+            <a href="https://www.bundesliga.com/es/bundesliga" target="_blank"><img src="./img/bundesliga.png" alt="Bundesliga" class="bundesliga"></a>
+        </div>
+        <div class="info">
+            <div class="acerca">
+                <a href="acerca.html" class="acerca">Acerca de nosotros</a>
+            </div>
+            <div class="equipos">
+                <a href="equipos.html" class="equipos">Equipos colaboradores</a>
+            </div><br>
+            <div class="fuentes">
+                <a href="fuentes.html" class="fuentes">Fuentes</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

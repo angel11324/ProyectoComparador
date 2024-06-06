@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de estadios de futbol</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nombre">
+            <a href="index.html"><img src="img/logoComparador.png" alt="Logo" class="logo"></a>
+        </div>
+        <div class="usuario">
+            <a href="./view/login/indexLogin.php" class="iniciarS">Iniciar Sesión</a>
+            <a href="./view/register/indexRegister.php" class="registrarse"><button id="btnregistrarse">Registrarse</button></a>
+        </div>
+        <div class="navegador">
+            <ul>
+                <li class="inicio"><a href="#">Inicio</a></li>
+                <li class="comparar"><a href="comparar.html">Comparar</a></li>
+                <li class="ligas"><a href="ligas.html">Ligas</a></li>
+            </ul>
+        </div>
+    </header>
+
+        <div id="carrusel">
+            <img src="img/allianz.jpg" alt="allianz" id="foto1" class="fotos">
+            <a href="comparar.html"><button class="btnComparar">Comparar Estadios</button></a>
+        </div>
+
+    <section class="contenedor">
+        <h1 class="destacado">Estadios destacados</h1>
+        <div class="unoatres">
+            <div class="caja1">
+                <a href="https://www.atleticodemadrid.com/civitasmetropolitano" target="_blank"><img src="img/metropolitano.jpg" alt="Estadio Civitas Metropolitano" class="estadio"></a>
+                <h2>Estadio Civitas Metropolitano</h2>
+            </div>
+            <div class="caja2">
+                <a href="https://www.fcbarcelona.es/es/club/instalaciones/spotify-camp-nou" target="_blank"><img src="img/campnou.jpg" alt="Estadio Spotify Camp Nou" class="estadio"></a>
+                <h2>Estadio Spotify Camp Nou</h2>
+            </div>
+            <div class="caja3">
+                <a href="https://sevillafc.es/el-club/ramon-sanchez-pizjuan" target="_blank"><img src="img/pijuan.jpg" alt="Estadio Ramon Sanchez Pijuan" class="estadio"></a>
+                <h2>Estadio Ramon Sanchez Pijuan</h2>
+            </div>
+        </div>
+        <div class="cuatroaseis">
+            <div class="caja4">
+                <a href="https://www.liverpoolfc.com/info/anfield" target="_blank"><img src="img/anfield.jpg" alt="Anfield" class="estadio"></a>
+                <h2>Anfield</h2>
+            </div>
+            <div class="caja5">
+                <a href="https://www.chelseafc.com/en/stadium-tours-and-museum" target="_blank"><img src="img/stamford.jpg" alt="Stamford Bridge" class="estadio"></a>
+                <h2>Stamford Bridge</h2>
+            </div>
+            <div class="caja6">
+                <a href="https://www.wembleystadium.com/" target="_blank"><img src="img/wembley.jpg" alt="Wembley" class="estadio"></a>
+                <h2>Wembley</h2>
+            </div>
+        </div>
+        <div class="sieteanueve">
+            <div class="caja7">
+                <a href="https://www.acmilan.com/en/club/venues/san-siro" target="_blank"><img src="img/sansiro.jpg" alt="San Siro" class="estadio"></a>
+                <h2>San Siro</h2>
+            </div>
+            <div class="caja8">
+                <a href="https://www.asroma.com/en/stadium" target="_blank"><img src="img/estadioolimpico.jpg" alt="Estadio Olimpico de Roma" class="estadio"></a>
+                <h2>Estadio Olímpico de Roma</h2>
+            </div>
+            <div class="caja9">
+                <a href="https://www.juventus.com/en/allianz-stadium/" target="_blank"><img src="img/juventusStadium.jpg" alt="Juventus Stadium" class="estadio"></a>
+                <h2>Juventus Stadium</h2>
+            </div>
+        </div>
+        <div class="diezadoce">
+            <div class="caja10">
+                <a href="https://bundesliga.com/es/bundesliga/noticias/signal-iduna-park-westfalen-estadio-borussia-dortmund-alemania-5684" target="_blank"><img src="img/signal.jpg" alt="Signal Iduna Park" class="estadio"></a>
+                <h2>Signal Iduna Park</h2>
+            </div>
+            <div class="caja11">
+                <a href="https://www.bundesliga.com/es/bundesliga/noticias/allianz-arena-estadio-fc-bayern-muenchen-munich-alemania-5787" target="_blank"><img src="img/allianz.jpg" alt="Allianz Arena" class="estadio"></a>
+                <h2>Allianz Arena</h2>
+            </div>
+            <div class="caja12">
+                <a href="https://www.bundesliga.com/es/bundesliga/noticias/olympiastadion-estadio-hertha-berlin-alemania-6042" target="_blank"><img src="img/berlin.jpg" alt="Estadio Olimpico de Berlin" class="estadio"></a>
+                <h2>Estadio Olimpico de Berlin</h2>
+            </div>
+        </div>
+    </section>
+    <section class="comentarios">
+        <h2 class="comentariosU">Comenta sobre nuestra web</h2>
+        <div class="comentarios-form">
+            <form id="comentarios-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="comentario">Comentario:</label>
+                <input for="comentario" id="comentario" name="comentario"><br>
+                <button type="submit" id="btnEnviar">Enviar</button>
+            </form>
+        </div>
+        <div id="comentarios-lista">
+            <!-- Los comentarios se mostrarán aquí -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="pie">
+            <a href="https://www.laliga.com/es-GB" target="_blank"><img src="./img/LaLiga.png" alt="LaLiga" class="laliga"></a>
+            <a href="https://www.premierleague.com/" target="_blank"><img src="./img/premier.png" alt="Premier League" class="premier"></a>
+            <a href="https://www.legaseriea.it/en" target="_blank"><img src="./img/serie-a.png" alt="Serie A" class="serieA"></a>
+            <a href="https://www.bundesliga.com/es/bundesliga" target="_blank"><img src="./img/bundesliga.png" alt="Bundesliga" class="bundesliga"></a>
+        </div>
+        <div class="info">
+            <div class="acerca">
+                <a href="acerca.html" class="acerca">Acerca de nosotros</a>
+            </div>
+            <div class="equipos">
+                <a href="equipos.html" class="equipos">Equipos colaboradores</a>
+            </div><br>
+            <div class="fuentes">
+                <a href="fuentes.html" class="fuentes">Fuentes</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

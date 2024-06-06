@@ -1,0 +1,445 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #278A1B;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #A0D79B;
+    width: 100%;
+    bottom: 0;
+}
+
+.usuario{
+    margin-left:1150px ;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.iniciarS{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: #E4E4E4;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.navegador{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background-color: #72a16d;
+}
+
+.inicio{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin-left: 220px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: #A0D79B;
+    background-color: #278A1B;
+    display: inline;
+    text-align: center;
+}
+
+.comparar{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: #A0D79B;
+    background-color: #278A1B;
+    display: inline;
+    text-align: center;
+}
+
+.ligas{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: #A0D79B;
+    background-color: #278A1B;
+    display: inline;
+    text-align: center;
+}
+
+.webs{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: #A0D79B;
+    background-color: #278A1B;
+    display: inline;
+    text-align: center;
+}
+
+.navegador ul li a{
+    padding: 125px;
+	color: aliceblue;
+	text-decoration: none;
+}
+
+#btnregistrarse{
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-color: #E4E4E4;
+    float: left;
+    overflow: hidden;
+}
+
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E4E4E4;
+    margin: 15px;
+    width: auto;
+    float: left;
+    overflow: hidden;
+    font-size: xx-large;
+}
+
+.pie{
+    width: auto;
+    text-align: center;
+}
+
+.laliga{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.premier{
+    width: 50px;
+    padding-right: 50px;
+}
+
+.serieA{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.bundesliga{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+}
+
+.unoatres{
+    width: 100%;
+    overflow: hidden;
+}
+.caja1{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 50px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caja2{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caja3{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.cuatroaseis{
+    width: 100%;
+    overflow: hidden;
+}
+.caja4{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caja5{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caja6{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.sieteanueve{
+    width: 100%;
+    overflow: hidden;
+}
+
+.caja7{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caja8{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caja9{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.diezadoce{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.caja10{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caja11{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caja12{
+    border-radius: 20px;
+    background-color: #D5FFD2;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.destacado{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.estadio{
+    width: 100%;
+    height: 250px;
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.acerca{
+    width: auto;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    color: #278A1B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-left: 220px;
+}
+.equipos{
+    width: auto;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    color: #278A1B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-left: 30px;
+}
+.fuentes{
+    width: auto;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    color: #278A1B;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 340px;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#carrusel{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.fotos{
+    width: 100%;
+    height: 700px;
+}
+
+
+.btnComparar {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color:#D5FFD2;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.btnComparar:hover {
+    background-color:#278A1B; 
+}
+
+.logo{
+    width: 70px;
+}
+
+.comentarios{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comentariosU{
+    text-align: center;
+}
+
+.comentarios-form{
+    width: 50%;
+    background-color: #278A1B;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D5FFD2;
+    padding: 50px;
+}
+
+#nombre{
+    background-color: #D5FFD2;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#comentario{
+    background-color: #D5FFD2;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#btnEnviar{
+    width: 200px;
+    margin-left: 250px;
+    height: 20px;
+    font-size: large;
+}
+
+#comentarios-lista{
+    padding: 20px;
+}
+
